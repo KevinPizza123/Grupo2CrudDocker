@@ -3,6 +3,6 @@ build-image:
 volume:
 	@ docker volume create pg_tendencia_data
 deploy:
-	@ docker stack deploy --with-registry-auth -c devops/stack.yml pedidos
+	@ docker stack deploy --with-registry-auth -c devops/stack.yml grupodos
 rm:
-	@ docker stack rm pedidos
+	@ docker stack rm grupodos
