@@ -15,11 +15,11 @@ services:
     environment:
       - TZ=America/Guayaquil
       - POSTGRES_DB=grupodoscrud
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_PASSWORD=1234
       - POSTGRES_USER=postgres
       - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
-      - pg_tendencia_data:/var/lib/postgresql/data/pgdata
+      - pg_tendencia_grupodos:/var/lib/postgresql/data/pgdata
     networks:
       - desarrollo_net
            
