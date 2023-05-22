@@ -9,7 +9,7 @@ services:
         protocol: tcp
         mode: host
     networks:
-      - desarrollo_grupo2
+      - desarrollo_net
   db2:
     image: postgres:15.0-bullseye
     environment:
@@ -21,7 +21,7 @@ services:
     volumes:
       - pg_tendencia_grupodos:/var/lib/postgresql/data/pgdata
     networks:
-      - desarrollo_grupo2
+      - desarrollo_grupodos
            
 volumes:
   pg_tendencia_data:
