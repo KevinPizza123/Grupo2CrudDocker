@@ -1,6 +1,6 @@
 package proyectodeinvestigacion.GRUPO2.entities;
 
-import java.util.List;
+//java 
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

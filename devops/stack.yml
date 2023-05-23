@@ -9,7 +9,7 @@ services:
         protocol: tcp
         mode: host
     networks:
-      - desarrollo_net
+      - desarrollo_grupodos
   db2:
     image: postgres:15.0-bullseye
     environment:
