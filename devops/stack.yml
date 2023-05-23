@@ -24,7 +24,7 @@ services:
       - desarrollo_grupodos
            
 volumes:
-  pg_tendencia_data:
+  pg_tendencia_grupodos:
     external: true
 
 networks:
