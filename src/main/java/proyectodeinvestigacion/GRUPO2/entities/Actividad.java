@@ -11,7 +11,6 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Entity
 @Data

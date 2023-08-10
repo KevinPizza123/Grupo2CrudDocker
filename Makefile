@@ -3,6 +3,6 @@ build-image:
 volume:
 	@ docker volume create pg_tendencia_grupodos
 deploy:
-	@ docker stack deploy --with-registry-auth -c devops/stack.yml grupodos
+	@ docker stack deploy --with-registry-auth -c devops/stack2yml grupodos
 rm:
 	@ docker stack rm grupodos

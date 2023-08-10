@@ -51,7 +51,7 @@ import proyectodeinvestigacion.GRUPO2.services.ActividadService;
         public Actividad update(@RequestBody Actividad entity) {
             return actividadService.save(entity);
         }
-    
+    // ELABORADO POR KEVIN RIVERA
         // actualizar parcial
         @PatchMapping("/actualizar/{id}")
         public Actividad partialUpdate(@PathVariable long id, @RequestBody Map<String, Object> fields) {
